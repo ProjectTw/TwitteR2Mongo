@@ -1,0 +1,27 @@
+Package: TwitteR2Mongo
+Type: Package
+Title: Stream Tweets form Twitter-API to MongoDB based on trend detection
+Version: 0.5.2
+Date: 2016-01-14
+Author: Philipp Prettel and Lion Weber
+Maintainer: Philipp Prettel <philipp.prettl@uni-konstanz.de>
+Description: The package retrives the hometimeline of the user and evaluates
+    those. The most common hashtags of the hometimeline, are used to stream all
+    tweets containing these results.
+License: GPL-2
+LazyData: TRUE
+Suggests:
+    knitr,
+    rmarkdown
+Depends:
+    stringr,
+    ggmap,
+    ggplot2,
+    maps,
+    base64enc
+Imports:
+    jsonlite,
+    mongolite,
+    httr
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
