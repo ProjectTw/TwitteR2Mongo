@@ -3,3 +3,5 @@ locationscache.Rda
 inst/doc
 *.txt
 *.Rproj
+*.Rbuilignore
+lock_file
