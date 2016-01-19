@@ -11,7 +11,7 @@ drawMap(data, location, zoom, fill = FALSE)
 
 \item{location}{Area to show on the map}
 
-\item{zoom}{Zoom factor form the map}
+\item{zoom}{Zoom factor for the map}
 
 \item{fill}{boolean value to adjust if a filling is used}
 }
@@ -19,7 +19,7 @@ drawMap(data, location, zoom, fill = FALSE)
 map
 }
 \description{
-Draws a Density Map
+Draws a Density Map of the coordinates
 }
 \examples{
 #drawMap(df, "Europe", 4)

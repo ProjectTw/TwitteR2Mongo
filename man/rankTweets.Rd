@@ -4,12 +4,10 @@
 \alias{rankTweets}
 \title{rankTweets}
 \usage{
-rankTweets(data, interval)
+rankTweets(data)
 }
 \arguments{
 \item{data}{dataframe time series to rank.}
-
-\item{interval}{vector}
 }
 \value{
 dataframe consisting of ranked hashtags
@@ -20,6 +18,6 @@ count in a given interval is being assigned rank 1. Second highest
 counts rank 2 and so on.
 }
 \examples{
-#rankTweets(dataframe, interval)
+#rankTweets(dataframe)
 }
 

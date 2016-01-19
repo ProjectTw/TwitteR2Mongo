@@ -7,7 +7,7 @@
 startStreaming(timeout = 60, query_url)
 }
 \arguments{
-\item{timeout}{period ofg time after which the stream ist stoped
+\item{timeout}{period of time after which the stream ist stopped
 and restarted with a updated list of search parameters}
 
 \item{query_url}{set a specific URL to query the API}
@@ -17,11 +17,14 @@ list of hashtags
 }
 \description{
 Start the streaming process for the filterstream
-in a seperate R process
+in a seperate R process. The timeout also defines the maximum waiting time
+between executing \link{stopStreaming} and the end of the streaming process
+If no query_url is supplied then the topHashtags from the users hometimeline
+are used.
 }
 \examples{
 #startStreaming(320)
-#startStreaming(60,"https://stream.twitter.com/1.1/statuses/filter.json?track=Syrieneinsatz")
+#startStreaming(60,"https://stream.twitter.com/1.1/statuses/filter.json?track=Trump")
 
 }
 

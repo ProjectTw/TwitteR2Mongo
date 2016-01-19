@@ -9,7 +9,7 @@ extractCoordinates(connection, searchterm, limit = 15000)
 \arguments{
 \item{connection}{The name of a MongoDB connection}
 
-\item{searchterm}{A term all tweets returned have to include}
+\item{searchterm}{A term all tweets returned contain}
 
 \item{limit}{Maximum number of tweets to retrive from db}
 }
@@ -17,7 +17,7 @@ extractCoordinates(connection, searchterm, limit = 15000)
 dataframe with coordinates (lat,long)
 }
 \description{
-To retrive information about the geographic location of the users.
+Exports Point and Polygon coordinates from the geo fields of the tweet
 The function currently supports coordinates of the type point and bounding box.
 The coordinates can be shown on a map using \link{drawMap}
 }

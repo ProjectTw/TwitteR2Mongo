@@ -4,12 +4,14 @@
 \alias{plotTweets}
 \title{plotTweets}
 \usage{
-plotTweets(data, tophashtags)
+plotTweets(data, tophashtags, interval)
 }
 \arguments{
 \item{data}{dataframe to plot created by createTwitterTimeSeries()}
 
 \item{tophashtags}{number of hashtags to plot.}
+
+\item{interval}{specified time interval. Relevant for the x-axis of the plot.}
 }
 \value{
 plot of the given dataframe
@@ -21,5 +23,8 @@ given time interval.
 \examples{
 #plots the top 10 hashtags
 #plotTweets(data,10)
+#interval <- createIntervalVector(c("2016-01-15 20:00:00", "2016-01-16 00:10:00"),9)
+#interval
+#plotTweets(data,10, interval)
 }
 

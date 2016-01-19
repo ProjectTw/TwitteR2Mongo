@@ -15,7 +15,8 @@ geocodeDataFrame(places, replace = FALSE)
 dataframe with coordinates (lat,long)
 }
 \description{
-Converts a UserLocation to lat/lon coordinates
+Converts a information from the user.location field into lat/lon coordinates
+using the google maps API
 }
 \examples{
 #geocodeDataFrame(df)

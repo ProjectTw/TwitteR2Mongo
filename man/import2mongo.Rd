@@ -7,12 +7,12 @@
 import2mongo(fileid, connection = "filterstream", createLog = TRUE)
 }
 \arguments{
-\item{fileid}{number of the file to import}
+\item{fileid}{Nnumber of the file to import}
 
-\item{connection}{a mongo db connection}
+\item{connection}{A mongo db connection}
 
 \item{createLog}{If set to FALSE output is send to the
-console instead of the logfile}
+console instead of the logfile (logfile_import.txt)}
 }
 \value{
 none

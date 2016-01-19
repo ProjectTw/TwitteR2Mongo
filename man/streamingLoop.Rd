@@ -7,11 +7,12 @@
 streamingLoop(timeout = 30, type, createLog = TRUE)
 }
 \arguments{
-\item{timeout}{time until the streaming is stoped and restarted with updated parameters}
+\item{timeout}{Time until the streaming is stoped and restarted with updated parameters}
 
-\item{type}{The Type of stream which is started. (1=Based on hometimeline) (2=Based on query_url)}
+\item{type}{The type of stream which is started. (1=Based on hometimeline) (2=Based on query_url)}
 
-\item{createLog}{If set to FALSE output is send to the console instead of the logfile}
+\item{createLog}{If set to FALSE output is send to the console instead of the logfile
+(logfile_filterstream.txt)}
 }
 \description{
 StreamingLoop is usually started by \link{startStreaming} in a seperate instance of R.
