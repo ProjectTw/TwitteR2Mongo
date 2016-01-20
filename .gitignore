@@ -1,6 +1,5 @@
 locationscache.Rda
 .httr-oauth
-inst/doc
 *.txt
 *.Rproj
 *.Rbuildignore
