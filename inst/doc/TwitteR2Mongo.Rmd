@@ -224,5 +224,5 @@ drawMap(data = result, location = "USA", zoom = 4, fill = TRUE)
 
 ## Logfiles
 
-The Streaming process creates multiple logfiles, as the seperate R instances can not print information to the console. They might be helpful in case something goes wrong with the streaming and updating process.
+The Streaming process creates two logfiles, as the seperate R instances can not print information to the console. They might be helpful in case something goes wrong with the streaming and updating process.
 The logfiles will be stored in your working directory.
